@@ -1,0 +1,13 @@
+body {
+    width:300px;
+    margin: auto;
+    text-align: center;
+}
+ul{
+    border: 1px solid;
+    padding: 10px 30px;
+}
+
+li {
+    text-align: left;
+}

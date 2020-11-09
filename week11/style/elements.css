@@ -1,0 +1,241 @@
+#title_subtitle {
+    width:800px;
+    text-align: left;
+    padding:5px 10px;
+}
+
+#title_subtitle .no_css,.apply_css{
+    border:1px solid;
+    padding:5px 10px;
+}
+
+
+.subtitle {
+    display: block;
+    font-size:20px;
+    color: #2060ad;
+    border-top:2px dashed #ffa000;
+}
+
+#new_window {
+    width:800px;
+    text-align: left;
+    padding:5px 10px;
+    border-top:1px solid;
+    margin:20px 0;
+}
+#new_window a{
+    text-decoration: none;
+    color:darkgoldenrod;
+}
+
+
+/*
+#new_window a[target="_blank"]::after{
+    content:  url("../src/new_link.png");
+    margin : 0 2px;
+    position:relative;
+    bottom:-10px
+}
+*/
+
+
+#new_window a[target="_blank"]::after{
+    content: "";
+    background-image: url("../src/new_link.png");
+    background-size: 15px;
+    width:15px; 
+    height:15px;
+    display: inline-block;
+    margin : 0 2px;
+    position:relative;
+    bottom:-2px;
+}
+
+
+#file_icon {
+    width:800px;
+    text-align: left;
+    padding:5px 10px;
+    border-top:1px solid;
+    margin:20px 0;
+}
+
+#file_icon a[href$=".pdf"]{
+    padding:2px 5px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color:#efa;
+    text-decoration: none;
+    color:#680;
+}
+#file_icon a[href$=".pdf"]::after{
+    content: "";
+    background-image: url("../src/pdf_dl.png");
+    background-size: 20px 20px;
+    width:20px; 
+    height:20px;
+    display: inline-block;
+    margin : 0 2px;
+    position:relative;
+    bottom:-4px
+    
+}
+
+#impact {
+    width:800px;
+    text-align: left;
+    padding:5px 10px;
+    border-top:1px solid;
+    margin:20px 0;
+}
+#impact .keyword{
+    padding:1px;
+    background: linear-gradient(transparent 60%,#ff0 60%, #ff0 100%)
+}
+
+
+#bread_crumb {
+    width:800px;
+    text-align: left;
+    padding:5px 10px;
+    border-top:1px solid;
+    margin:20px 0;
+}
+
+#bread_crumb .bc{
+    list-style: none;
+    border: 1px solid orange;
+    border-radius: 0 15px 15px 0;
+    background-color:antiquewhite;
+    padding: 5px 20px;
+}
+
+#bread_crumb li{
+    display: inline-block;
+}
+
+#bread_crumb a{
+    color: coral;
+    text-decoration: none;
+}
+
+#bread_crumb li::after{
+    content:" >";
+    color:blueviolet;
+    padding: 0 5px;
+}
+
+#bread_crumb li:last-child::after{
+    content:"";
+}
+
+#img_around {
+    width:800px;
+    text-align: left;
+    padding:5px 10px;
+    border-top:1px solid;
+    margin:20px 0;
+}
+
+#img_around .float_block{
+    width:600px
+}
+
+#img_around .float_block h1,h2{
+    font-size:20px;
+    color:#60e0e0;
+    border-bottom: 3px solid #60e0e0;
+    margin-bottom: 5px;
+}
+
+
+#img_around .floating_img{
+    background-image: url("../src/river.jpg");
+    background-size:250px;
+    background-position: 0 160px;
+    width:250px;
+    height:160px;
+    float:left;
+}
+
+#img_around h2{
+    clear:both;
+}
+
+#card_block {
+    width:800px;
+    text-align: left;
+    padding:5px 10px;
+    border-top:1px solid;
+    margin:20px 0;
+}
+#card_block .card_boxes{
+    width:100%;
+    height:600px;
+}
+
+#card_block .card{
+    width:300px;
+    float:left;
+    margin:10px;
+}
+
+#card_block .card_title{
+    height:40px;
+    padding:10px 10px;
+    margin:0;
+    background:#ffd262;
+    border-radius: 20px 20px 0 0;
+}
+#card_block .card_contents{
+    height:140px;
+    padding:10px 10px;
+    margin:0;
+    border:2px solid #ffd262;
+    border-radius:0 0 20px 20px;
+    overflow: hidden;
+}
+#card_block a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+#quote {
+    width:800px;
+    text-align: left;
+    padding:5px 10px;
+    border-top:1px solid;
+    margin:20px 0;
+}
+
+#quote blockquote{
+    margin-top:50px;
+    padding: 20px 60px;
+    background: url("../src/quote01.png") top left no-repeat,
+                url("../src/quote02.png") bottom right no-repeat;
+    font-size:20px;
+    color: #47f;
+    
+}
+
+.gotop {
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+    background-color: #294175;
+    width:60px;
+    margin:20px auto 0 auto;
+    padding:5px;
+    border-radius: 20px 20px 0 0;
+}
+.gotop:hover {
+    background-color: #5971b5;
+}
+footer {
+    padding: 10px;
+    background-color: #294175;
+    color:#fff;
+}
