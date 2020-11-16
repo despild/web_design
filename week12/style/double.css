@@ -80,7 +80,6 @@ nav ul li a{
     display: block;
     width:50%;
     padding:10px 20px;
-    
     text-align: left;
     border-bottom: 1px solid;
 }
@@ -111,24 +110,15 @@ nav ul li a{
     margin-left: 360px;
 }
 
-.main_img{
-    width:80%;
-    margin:10px auto;
-    padding:3px;
-    display: block;
-    border:1px #274 solid;
-    caption-side: bottom;
-}
-.img_caption{
-    width:80%;
-    display: block;
-    margin: auto;
-    text-align: center
-}
-
 
 .footer-container{
     padding:20px;
     background:#a73;
     color:#fff
+}
+
+
+.footer-container p{
+    padding:0;
+    margin:0;
 }

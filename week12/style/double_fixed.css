@@ -119,27 +119,17 @@ nav ul li a{
     margin-left: 360px;
 }
 
-.main_img{
-    width:80%;
-    margin:10px auto;
-    padding:3px;
-    display: block;
-    border:1px #274 solid;
-    caption-side: bottom;
-}
-.img_caption{
-    width:80%;
-    display: block;
-    margin: auto;
-    text-align: center
-}
-
 
 .footer-container{
+    width:800px;
+    margin:0 auto;
     display:block;
     padding:20px;
     background:#a73;
-    color:#fff;
-    
-    
+    color:#fff;   
+}
+
+.footer-container p{
+    padding:0;
+    margin:0;
 }
