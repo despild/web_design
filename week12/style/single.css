@@ -14,7 +14,7 @@ body{
     height:300px;
     background-image:url("../src/headline_img.jpg");
     background-size: 100%;
-    background-position: 0 -100px;
+    background-position: 0 30%;
     position:relative;
 
 }
