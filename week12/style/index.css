@@ -1,0 +1,48 @@
+html{
+    width:600px;
+    margin:auto;
+    padding:0;
+    border:1px solid red;
+}
+body{
+    padding:0;
+    margin:10px 0;
+}
+header{
+    padding:5px 20px;
+}
+header h1{
+    width:80%;
+}
+header .subtitle{
+    display: block;
+    font-size: 24px;
+    border-top:2px solid;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding:10px;
+    margin: 10px 0;
+    width: 400px;
+    border:1px solid red;
+    border-left:0px;
+    border-radius: 0 40px 40px 0;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color:#444;
+    padding:0 10px;
+}
+
+a:hover {
+    color:#111;
+}
+li:hover {
+    background-color: #fee;
+}

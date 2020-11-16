@@ -1,0 +1,134 @@
+html * {
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.header-container {
+    display: block;
+    width:100%;
+    margin:0 auto;
+    height:300px;
+    background-image:url("../src/headline_img.jpg");
+    background-size: 100%;
+    background-position: 0 -100px;
+    position:relative;
+
+}
+
+.logo{
+    float:left;
+    width:100px;
+    height:100px;
+    background: #a73;
+    font-size:2em;
+    text-align: center;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+}
+.logo a{
+    text-decoration: none;
+    color:#324;
+    
+}
+ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
+nav li{
+    display: block;
+    float:left;
+    width:25%;
+    padding:1em 0;
+    
+    text-align: center;
+    background-color:darkgoldenrod;
+    
+}
+nav li .current{
+    width:100%;
+    border-bottom: 3px solid antiquewhite;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:antiquewhite;
+    
+}
+
+.main-container{
+    overflow: hidden;
+    padding 0 0 40px 0;
+}
+
+.sidebar{
+    float:right;  /* 변경된 부분 */
+    margin:0 0 0 20px;
+    padding: 30px 0 30px 0;
+    width: 300px;
+}
+.section-title{
+    font-size: 30px;
+}
+.sidebar li{
+    display: block;
+    width:50%;
+    padding:10px 20px;
+    
+    text-align: left;
+    border-bottom: 1px solid;
+}
+
+.sidebar li:last-child{
+    border-bottom: 0px solid;
+}
+
+
+.sidebar li a{
+    text-decoration: none;
+    color:crimson;
+}
+
+.sidebar li .current{
+    color:darkslateblue;
+}
+
+
+.maincol{
+    float:left; /* 변경된 부분 */
+    margin: 0 -360px 0 20px;  /* 변경된 부분 */
+    padding: 30px 0 30px 0;
+    width:100%;
+}
+
+.maincol-container{
+    margin-right: 360px; /* 변경된 부분 */
+}
+
+.main_img{
+    width:80%;
+    margin:10px auto;
+    padding:3px;
+    display: block;
+    border:1px #274 solid;
+    caption-side: bottom;
+}
+.img_caption{
+    width:80%;
+    display: block;
+    margin: auto;
+    text-align: center
+}
+
+
+.footer-container{
+    padding:20px;
+    background:#a73;
+    color:#fff
+}
