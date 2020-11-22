@@ -1,0 +1,63 @@
+html * {
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+.main-container{
+    overflow: hidden;
+    padding 0 0 40px 0;
+    width:800px;     /* 변경된 부분 */
+    margin: 0 auto;    /* 변경된 부분 */
+}
+
+.sidebar{
+    float:left;
+    margin:0 0 0 20px;
+    padding: 30px 0 30px 0;
+    width: 200px;
+}
+.section-title{
+    font-size: 30px;
+}
+
+.sidebar li{    
+    text-align: left;
+    border-bottom: 1px solid;
+    list-style: none;
+    width:70%;
+
+}
+
+.sidebar li:last-child{
+    border-bottom: 0px solid;
+}
+
+.sidebar li a{
+    display: block;
+    padding:10px 20px;
+    text-decoration: none;
+    color:crimson;
+}
+
+.sidebar li a:hover{
+    color:darkslateblue;
+}
+.sidebar li .current{
+    color:darkslateblue;
+}
+
+.maincol{
+    float:right;
+    margin: 0 20px 0 0;
+    padding: 30px 0 30px 0;
+    width:550px;
+}
+
+.maincol-container{
+/*    margin-left: 360px;*/
+}
+
+

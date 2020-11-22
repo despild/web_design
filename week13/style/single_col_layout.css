@@ -1,0 +1,16 @@
+html * {
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.main-container{
+    width:800px;       /* 변경 부분 */
+    margin: 0 auto 30px auto;
+}
+
+
+

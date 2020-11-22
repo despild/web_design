@@ -1,0 +1,7 @@
+.map{
+    display: block;
+    background: url("../src/map.png") center;
+    width:100%;
+    height:300px;
+    border:1px solid;
+}

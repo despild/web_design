@@ -1,0 +1,13 @@
+.main_img{
+    width:80%;
+    margin:10px auto;
+    padding:3px;
+    display: block;
+    border:1px #274 solid;
+}
+.img_caption{
+    width:80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
