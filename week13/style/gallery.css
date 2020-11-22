@@ -1,0 +1,10 @@
+.gall_img{
+    display: block;
+    border: 1px solid;
+    width:90%;
+    height:700px;
+    overflow: hidden;
+}
+.gall_img img{
+    width:100%;
+}

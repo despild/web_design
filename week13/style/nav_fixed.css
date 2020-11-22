@@ -1,0 +1,12 @@
+.header-nav-wrapper{
+    position: fixed;
+    z-index:10;
+    width:100%
+}
+
+.main-wrapper{
+    position: absolute;
+    z-index:0;
+    width:100%;
+    top:350px;
+}
