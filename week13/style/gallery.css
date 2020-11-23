@@ -2,9 +2,26 @@
     display: block;
     border: 1px solid;
     width:90%;
-    height:700px;
+    padding: 0;
     overflow: hidden;
+    margin: 0 auto;
 }
 .gall_img img{
     width:100%;
+}
+
+@media screen and (min-width:768px){
+    
+    .gall_img{
+        display: block;
+        border: 1px solid;
+        width:90%;
+        height:700px;
+        overflow: hidden;
+    }
+    .gall_img img{
+        width:100%;
+    }
+
+
 }
