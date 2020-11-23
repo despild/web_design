@@ -11,7 +11,6 @@
 }
 
 @media screen and (min-width:768px){
-    
     .gall_img{
         display: block;
         border: 1px solid;
@@ -22,6 +21,4 @@
     .gall_img img{
         width:100%;
     }
-
-
 }

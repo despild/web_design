@@ -7,7 +7,6 @@
     background-size: 100%;
     background-position: 0 30%;
     position:relative;
-
 }
 
 
@@ -25,6 +24,7 @@
     text-decoration: none;
     color:#bd7;
 }
+
 
 .logo a:hover{
     background: #316;
@@ -62,7 +62,6 @@ nav ul li a:hover{
     
 }
 .footer-container{
-    display: block;
     margin: 0 auto;
     width:800px;     /* 변경 부분 */    
     padding: 10px 20px;

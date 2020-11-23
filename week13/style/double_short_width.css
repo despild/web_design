@@ -1,37 +1,36 @@
 html * {
     box-sizing: border-box;
 }
-
 body{
     padding:0;
     margin:0;
 }
+
 .main-container{
-    overflow: hidden;
-    padding 0 0 40px 0;
-    width:800px;     /* 변경된 부분 */
-    margin: 0 auto;    /* 변경된 부분 */
+    padding: 0 0 40px 0;
+    margin: 0 auto;
 }
 
 .sidebar{
-    float:left;
-    margin:0 0 0 20px;
+    width:100%;
+    margin:0 auto;
     padding: 30px 0 30px 0;
-    width: 200px;
 }
 .section-title{
     font-size: 30px;
+    text-align: center
 }
-
 .sidebar ul{
     padding:0;
 }
-.sidebar li{    
-    text-align: left;
+
+.sidebar li{
+    display: block;
+    text-align: center;
     border-bottom: 1px solid;
     list-style: none;
-    width:70%;
-
+    width:50%;
+    margin: 0 auto;
 }
 
 .sidebar li:last-child{
@@ -53,14 +52,19 @@ body{
 }
 
 .maincol{
-    float:right;
-    margin: 0 20px 0 0;
+    margin: 0 auto;
     padding: 30px 0 30px 0;
-    width:550px;
+    width:95%;
 }
-
-.maincol-container{
-/*    margin-left: 360px;*/
+.maincol-container h1{
+    text-align: center;
+    width:80%;
+    margin:0 auto;
+    border-bottom: 1px solid;
+    padding: 10px;
+} 
+.maincol-container p{
+    width:70%;
+    margin:0 auto;
+    padding:10px 30px;
 }
-
-
