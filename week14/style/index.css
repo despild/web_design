@@ -1,0 +1,172 @@
+ul{
+    margin:0;
+    padding: 0;
+    clear: both;
+    margin:30px 0;
+}
+
+.img_coin{
+    float:left;
+    list-style: none;
+    margin:10px;
+    display: block;
+    width:200px;
+    height:200px;
+    border-radius: 50%;   
+}
+
+
+.translate_2d .img_coin:hover{
+    transform: translate(20px, 40px);
+    transition: transform 1s linear;
+}
+
+#coin1, #coin3, #coin5{
+    background: url("../src/big-ben_200px.jpg");
+}
+
+#coin2, #coin4{
+    background: url("../src/eiffel-tower_200px.jpg");    
+}
+#coin6{
+    background: url("../src/text.png");    
+}
+.translate_3d #coin1:hover{
+    transform: perspective(500px) translateZ(300px);
+}
+
+.translate_3d #coin2:hover{
+    transform: perspective(500px) translateZ(300px);
+}
+
+.translate_3d #coin3:hover{
+    transform: perspective(500px) translate3d(100px, 100px, 0px);
+    transition: transform 1s cubic-bezier(.09,.72,.54,.95) 3s;
+}
+
+
+.rotation #coin1:hover{
+    transform: rotate(50deg);
+    transition: transform 1s cubic-bezier(.09,.72,.54,.95);
+}
+
+.rotation #coin2:hover{
+    transform: rotate(50deg) scale(1.5);
+    transition: transform 1s cubic-bezier(.09,.72,.54,.95);
+}
+
+
+.rotation #coin3:hover{
+    transform: rotateX(180deg) rotateY(180deg);
+    transition: transform 1s cubic-bezier(.09,.72,.54,.95);
+}
+
+.rotation #coin4:hover{
+    transform: rotate3d(1,0,0,360deg) rotate3d(0,1,0,3600deg);
+    transition: transform 5s cubic-bezier(.09,.72,.54,.95);
+}
+.rotation #coin5{
+    border-radius: 0;
+}
+.rotation #coin5:hover{
+    transform: perspective(500px) rotateY(60deg);
+    transition: transform 5s cubic-bezier(.09,.72,.54,.95);
+}
+
+.gallery li{
+    border-radius: 10%;
+    transform: perspective(500px) rotateY(30deg);
+    opacity: 0.7;
+    transition: transform 5s cubic-bezier(.09,.72,.54,.95);
+}
+
+.gallery li:hover{
+    transform: perspective(500px) rotateY(0deg);
+    opacity: 1.0;
+    transition: all 5s cubic-bezier(.09,.72,.54,.95);
+}
+.filters #coin1{
+    filter:blur(10px) sepia();
+}
+.filters #coin2{
+    filter:brightness(1.5);
+    text-align: center;
+    padding:0px 0;
+}
+
+.filters #coin2 p{
+    opacity: 0;
+}
+
+.filters #coin2:hover{
+    filter:brightness(1)
+}
+
+.filters #coin2:hover p{
+    color:#f00;
+    font-size:60px;
+    filter:brightness(1.5);
+    opacity: 1;
+}
+.filters #coin3{
+    filter:hue-rotate(0deg);
+}
+
+.filters #coin3:hover{
+    filter:hue-rotate(360deg);
+    transition: filter 5s linear;
+}
+
+.filters #coin4{
+    filter:drop-shadow(0 10px 10px rgba(0,0,0,1.0))
+}
+.filters #coin6{
+    border-radius: 0;
+    filter:drop-shadow(0 20px 10px rgba(0,0,0,0.3))
+}
+
+.keyframe_ani li{
+    animation-name: key;
+    animation-direction:normal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 1;
+}
+
+.keyframe_ani li:hover{
+    animation-name: key_hover;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    z-index: 10;
+}
+
+
+@keyframes key{
+    0%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 1.0;
+    }
+    100%{
+        opacity: 0.4;
+    }
+    
+}
+
+
+@keyframes key_hover{
+    0%{
+        transform: perspective(300px) translateZ(00px);
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        transform: perspective(300px) translateZ(100px);
+        opacity: 1;
+    }
+    
+}
